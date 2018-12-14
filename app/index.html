@@ -78,35 +78,35 @@
           <h3 class="text-center">Inscripciones Abiertas</h3>
           <form action="" method="POST" >
               <div class="group-form">
-                <input type="text" name="nombre" placeholder="Nombre *" required>
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre *" required>
                 <span class="invalid-name"></span>
               </div>
               <div class="group-form">
-                <input type="text" name="email" placeholder="Email *" required>
+                <input type="email" name="email" placeholder="Email *" required>
                 <span class="invalid-email"></span>
               </div>
               <div class="group-form">
-                <select name="carrera" id="carrera">
+                <select required name="carrera" id="carrera">
                     <option value="">Selecciona tu carrera * </option>
                     <option value="carrera 1"> carrera 1 * </option>
                     <option value="carrera 2"> carrera 2 * </option>
                   </select>              </div>
               <div class="group-form">
-                <select name="provincia" id="provincia">
+                <select required name="provincia" id="provincia">
                   <option value="">Selecciona tu Provincia * </option>
                   <option value="Provincia 1"> Provincia 1 * </option>
                   <option value="Provincia 2"> Provincia 2 * </option>
                 </select>
               </div>
               <div class="group-form">
-                <select name="sede" id="sede">
+                <select required name="sede" id="sede">
                   <option value="">Selecciona una Sede* </option>
                   <option value="sede 1">sede 1</option>
                   <option value="sede 2">sede 2</option>
                 </select>
               </div>
               <div class="group-form">
-                <input type="text" name="dni" placeholder="DNI *" required>
+                <input type="number" name="dni" placeholder="DNI *" required>
                 <span class="invalid-dni"></span>
               </div>
               <div class="group-form">
