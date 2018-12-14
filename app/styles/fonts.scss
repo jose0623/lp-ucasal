@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'museo_sans300';
+    src: url('../fonts/museosans-300-webfont.woff2') format('woff2'),
+         url('../fonts/museosans-300-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museo_sans500';
+    src: url('../fonts/museosans_1-webfont.woff2') format('woff2'),
+         url('../fonts/museosans_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museo_sans700';
+    src: url('../fonts/museosans_0-webfont.woff2') format('woff2'),
+         url('../fonts/museosans_0-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museo_sans900';
+    src: url('../fonts/museosans-webfont.woff2') format('woff2'),
+         url('../fonts/museosans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museo_sans300_italic';
+    src: url('../fonts/museosans-300italic-webfont.woff2') format('woff2'),
+         url('../fonts/museosans-300italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museo_sans500_italic';
+    src: url('../fonts/museosans_500_italic-webfont.woff2') format('woff2'),
+         url('../fonts/museosans_500_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'museo_sans900_italic';
+    src: url('../fonts/museosans-900italic-webfont.woff2') format('woff2'),
+         url('../fonts/museosans-900italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'museo_sans300';
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'museo_sans900';
+}
