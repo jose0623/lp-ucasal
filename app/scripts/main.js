@@ -11,7 +11,7 @@ $( 'a' ).click(function( event ) {
 // Initialize Swiper
   var swiper = new Swiper('.swiper-container-bidding', {
     slidesPerView: 4,
-    spaceBetween: 50,
+    spaceBetween: 30,
     // init: false,
     pagination: {
       el: '.swiper-pagination-bidding',
